@@ -1,0 +1,98 @@
+* {margin:0;padding:0; outline:none;}
+
+.wrapper {
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: #fff;
+    background: linear-gradient(5deg,#005AA7,#FFFDE4);
+    padding:1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    width: 100%;
+    height: 30px;
+    display:flex;
+}
+
+.input-text {
+    width: 85%;
+    padding: 0.3em;
+    /* border: none; */
+}
+
+.add-button {
+    width: 15%;
+    border: none;
+    background-color: #28324e;
+    color: #fff;
+    outline: none;
+}
+
+.add-button:hover {
+    cursor: pointer;
+    background:#333;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    display: flex;
+    padding: 1em;
+    border: 1px solid #ccc;
+    align-items: center;
+}
+
+.list .like {
+    flex:1;
+}
+
+.list .item {
+    flex:8;
+}
+
+.list .manage {
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.like i {
+    color:salmon;
+}
+
+.manage .check {
+    color:#38ef7d;
+}
+
+.manage .clear {
+    color:salmon;
+}
+
+/* js 동작시킬 done 부여 */
+.done .item {
+    text-decoration: line-through;
+}
+.done .check {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
