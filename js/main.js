@@ -63,14 +63,14 @@ function addItem() {
     list.appendChild(li)
 
     inputText.value = "";
-    inputText.focus();
+    inputText.focus()
 }
 
-inputText.addEventListener("keypress", e => {
-    if (e.keycode === 13) {
+inputText.addEventListener("keypress", (e) => {
+    if (e.keyCode === 13) {
         addItem()
     }
 })
 
-addButton.addEventListener('click', addItem)
+addButton.addEventListener("click", addItem)
 // console.log({inputText})
