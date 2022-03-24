@@ -34,6 +34,7 @@ header {
     background-color: #28324e;
     color: #fff;
     outline: none;
+    cursor: pointer;
 }
 
 .add-button:hover {
@@ -68,14 +69,17 @@ header {
 
 .like i {
     color:salmon;
+    cursor: pointer;
 }
 
 .manage .check {
     color:#38ef7d;
+    cursor: pointer;
 }
 
 .manage .clear {
     color:salmon;
+    cursor: pointer;
 }
 
 /* js 동작시킬 done 부여 */
