@@ -16,6 +16,8 @@
         <!-- <span v-show="visible" v-html="name"></span> -->
     </h2>
     <p v-if="value > 5">DATE DATE DATE {{date}}</p>
+    <h3>{{ Date() }}</h3>
+    <img :src="frog"/>
 </div>
     
 </body>
@@ -27,7 +29,8 @@
             // name: '<i>이탈릭</i>',
             // visible : true,
             value:0,
-            date:'2022.03.24'
+            date:'2022.03.24',
+            frog:'https://pds.joins.com/news/component/htmlphoto_mmdata/201502/28/htm_20150228111110a0103011.jpg'
         }
     });
 </script>
